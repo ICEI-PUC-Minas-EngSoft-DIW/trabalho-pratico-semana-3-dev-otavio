@@ -3,111 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube - Wireframe</title>
+    <title>CS News - Notícias, Guias e Análises de Counter-Strike</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <div class="header-left">
-                <div class="box logo"></div>
-                <div class="box search-bar"></div>
-            </div>
-            <div class="header-right">
-                <div class="box btn"></div>
-                <div class="box btn"></div>
-                <div class="box btn"></div>
-            </div>
-        </header>
+    <header class="header">
+        <div class="header-left">
+            <a href="#" class="logo">CS News</a>
+            <form action="#" class="search-bar">
+                <input type="search" placeholder="Buscar...">
+            </form>
+        </div>
+        <nav class="top-nav">
+            <a href="#" class="btn">Upload</a>
+            <a href="#" class="btn">Notificações</a>
+            <a href="#" class="btn">Configurações</a>
+        </nav>
+    </header>
 
-        <main class="main-content">
-            <aside class="sidebar">
-                <div class="box sidebar-item"></div>
-                <div class="box sidebar-item"></div>
-                <div class="box sidebar-item"></div>
-                <div class="box sidebar-item"></div>
-                <div class="box sidebar-item"></div>
-                <div class="box sidebar-item"></div>
-                <div class="box sidebar-item"></div>
-                <div class="box sidebar-item"></div>
-                <div class="box sidebar-item"></div>
-                <div class="box sidebar-item"></div>
+    <main class="main-content">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Meu Perfil</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Análises</a></li>
+                <li><a href="#">Guias</a></li>
+                <li><a href="#">Tutoriais</a></li>
+            </ul>
+        </nav>
+
+        <section class="content">
+            <nav class="content-header-nav">
+                <a href="#" class="content-header-btn">Início</a>
+                <a href="#" class="content-header-btn">Em alta</a>
+                <a href="#" class="content-header-btn">Categorias</a>
+            </nav>
+            
+            <article class="main-article">
+                <h2>Título da Notícia Principal</h2>
+                <p class="article-meta">Autor | Data | 100 visualizações</p>
+            </article>
+
+            <aside class="ad-container">
+                <p>Anúncio</p>
             </aside>
 
-            <section class="content">
-                <div class="content-header">
-                    <div class="box content-header-btn"></div>
-                    <div class="box content-header-btn"></div>
-                    <div class="box content-header-btn"></div>
-                </div>
-                
-                <div class="box main-video"></div>
-
-                <div class="ad-container">
-                    <p>Ad.</p>
-                </div>
-
-                <div class="video-section">
-                    <h2>Recommended</h2>
-                    <div class="video-grid">
-                        <div class="video-card">
-                            <div class="box thumbnail"></div>
-                            <div class="box title"></div>
-                            <div class="box info-line"></div>
-                            <div class="box info-line"></div>
+            <section class="news-section">
+                <h3>Notícias Recomendadas</h3>
+                <div class="articles-grid">
+                    <article class="article-card">
+                        <div class="article-thumbnail"></div>
+                        <h4>Título da Notícia</h4>
+                        <div class="article-info">
+                            <span class="info-line"></span>
+                            <span class="info-line"></span>
                         </div>
-                        <div class="video-card">
-                            <div class="box thumbnail"></div>
-                            <div class="box title"></div>
-                            <div class="box info-line"></div>
-                            <div class="box info-line"></div>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-thumbnail"></div>
+                        <h4>Título da Notícia</h4>
+                        <div class="article-info">
+                            <span class="info-line"></span>
+                            <span class="info-line"></span>
                         </div>
-                        <div class="video-card">
-                            <div class="box thumbnail"></div>
-                            <div class="box title"></div>
-                            <div class="box info-line"></div>
-                            <div class="box info-line"></div>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-thumbnail"></div>
+                        <h4>Título da Notícia</h4>
+                        <div class="article-info">
+                            <span class="info-line"></span>
+                            <span class="info-line"></span>
                         </div>
-                        <div class="video-card">
-                            <div class="box thumbnail"></div>
-                            <div class="box title"></div>
-                            <div class="box info-line"></div>
-                            <div class="box info-line"></div>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-thumbnail"></div>
+                        <h4>Título da Notícia</h4>
+                        <div class="article-info">
+                            <span class="info-line"></span>
+                            <span class="info-line"></span>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="video-section">
-                    <h2>Recently Uploaded</h2>
-                    <div class="video-grid">
-                        <div class="video-card">
-                            <div class="box thumbnail"></div>
-                            <div class="box title"></div>
-                            <div class="box info-line"></div>
-                            <div class="box info-line"></div>
-                        </div>
-                        <div class="video-card">
-                            <div class="box thumbnail"></div>
-                            <div class="box title"></div>
-                            <div class="box info-line"></div>
-                            <div class="box info-line"></div>
-                        </div>
-                        <div class="video-card">
-                            <div class="box thumbnail"></div>
-                            <div class="box title"></div>
-                            <div class="box info-line"></div>
-                            <div class="box info-line"></div>
-                        </div>
-                        <div class="video-card">
-                            <div class="box thumbnail"></div>
-                            <div class="box title"></div>
-                            <div class="box info-line"></div>
-                            <div class="box info-line"></div>
-                        </div>
-                    </div>
+                    </article>
                 </div>
             </section>
-        </main>
-    </div>
+            
+            <section class="news-section">
+                <h3>Últimas Notícias</h3>
+                <div class="articles-grid">
+                    <article class="article-card">
+                        <div class="article-thumbnail"></div>
+                        <h4>Título da Notícia</h4>
+                        <div class="article-info">
+                            <span class="info-line"></span>
+                            <span class="info-line"></span>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-thumbnail"></div>
+                        <h4>Título da Notícia</h4>
+                        <div class="article-info">
+                            <span class="info-line"></span>
+                            <span class="info-line"></span>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-thumbnail"></div>
+                        <h4>Título da Notícia</h4>
+                        <div class="article-info">
+                            <span class="info-line"></span>
+                            <span class="info-line"></span>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-thumbnail"></div>
+                        <h4>Título da Notícia</h4>
+                        <div class="article-info">
+                            <span class="info-line"></span>
+                            <span class="info-line"></span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 CS News. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
