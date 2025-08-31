@@ -9,9 +9,9 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 ## Informações Gerais
 
 - Nome:Otavio Henrique
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Matricula:903767
+- Proposta de projeto escolhida: noticias de CS2 
+- Breve descrição sobre seu projeto:um site que apresenta noticisa sobre o jogo "Counter Strike 2"
 
 
 ## Print do(s) wireframe(s) criado
